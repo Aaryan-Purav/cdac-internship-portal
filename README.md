@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Internship/Project Finder Portal
 
 This is a Flask-based web application built as part of the 4-credit CDAC Transfer Project.
@@ -86,3 +87,7 @@ This shows how your Markdown will look in GitHub or any other Markdown viewer.
 Want a **fancy version** with badges, images, or custom table of contents? I can help with that too.
 
 Let me know once you’ve created the README — we’ll zip it all up and call it done ✅🧳
+=======
+# cdac-internship-portal
+Flask-based Internship Finder Portal for CDAC Transfer Project
+>>>>>>> 62e0d21b708b013c8db1d7558eb2a9ce9fbc3163
