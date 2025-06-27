@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Internship/Project Finder Portal
 
 This is a Flask-based web application built as part of the 4-credit CDAC Transfer Project.
@@ -10,10 +8,9 @@ This is a Flask-based web application built as part of the 4-credit CDAC Transfe
 - REST API using Flask-RESTful
 - Object-Oriented Programming and SQLAlchemy
 - SQLite database integration
-- Templating with Jinja2 (home.html and add.html)
+- Templating with Jinja2 (`home.html` and `add.html`)
 
 ## 📂 Project Structure
-
 Project/
 ├── app/
 │ ├── init.py
@@ -32,8 +29,8 @@ Project/
 
 ## ▶️ How to Run
 
-1. Clone or unzip the project
-2. Create a virtual environment (optional)
+1. Clone or unzip the project  
+2. Create a virtual environment (optional)  
 3. Install dependencies:
 
 ```bash
@@ -42,9 +39,9 @@ pip install -r requirements.txt
 Run the app:
 python run.py
 
-Visit in browser:
+Then open in your browser:
 
-Homepage: http://127.0.0.1:5000/
+Homepage: http://127.0.0.1:5000
 
 Add Internship: http://127.0.0.1:5000/add
 
@@ -53,7 +50,7 @@ GET /api/internships → Fetch all internships
 
 POST /api/internships → Add internship using JSON
 
-🧑‍💻 Sample JSON for API
+🧑‍💻 Sample JSON for POST:
 {
   "title": "Analog Design Intern",
   "domain": "VLSI",
@@ -65,35 +62,25 @@ Aaryan
 B.Tech. Electronics & Telecommunication
 CDAC Transfer Project – June 2025
 
----
+✅ Optional Enhancements
+Add login/signup feature
 
-### ✅ Step 4: Save the file
+Connect to a live PostgreSQL DB
 
-Once you've pasted the content:
-- Hit **Ctrl + S** to save
-- Done 🎯
+Deploy on Render/Heroku
 
----
+Add image uploads or resume attachment field
 
-## 🧠 Bonus Tip: Preview Markdown (Optional)
-
-In **VS Code**:
-- Right click on the file → `Open Preview`
-- OR use shortcut: `Ctrl + K V`
-
-This shows how your Markdown will look in GitHub or any other Markdown viewer.
 
 ---
 
-Want a **fancy version** with badges, images, or custom table of contents? I can help with that too.
+## 🛠 What to Do Next:
 
-Let me know once you’ve created the README — we’ll zip it all up and call it done ✅🧳
-=======
-# cdac-internship-portal
-Flask-based Internship Finder Portal for CDAC Transfer Project
->>>>>>> 62e0d21b708b013c8db1d7558eb2a9ce9fbc3163
-=======
-# CDAC Internship Finder Portal
+### 1. Replace your current `README.md` with the above content  
+### 2. Save the file  
+### 3. Stage and commit the fix:
 
-This is a Flask-based web application developed as part of CDAC's 4-credit transfer project. It includes internship listings, add/view features, and database integration.
->>>>>>> e7f6374541d1838499e9e5535e87f115098f33e0
+```bash
+git add README.md
+git commit -m "Cleaned and finalized README.md"
+git push
