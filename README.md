@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Internship/Project Finder Portal
 
 This is a Flask-based web application built as part of the 4-credit CDAC Transfer Project.
@@ -91,3 +92,8 @@ Let me know once you’ve created the README — we’ll zip it all up and call 
 # cdac-internship-portal
 Flask-based Internship Finder Portal for CDAC Transfer Project
 >>>>>>> 62e0d21b708b013c8db1d7558eb2a9ce9fbc3163
+=======
+# CDAC Internship Finder Portal
+
+This is a Flask-based web application developed as part of CDAC's 4-credit transfer project. It includes internship listings, add/view features, and database integration.
+>>>>>>> e7f6374541d1838499e9e5535e87f115098f33e0
