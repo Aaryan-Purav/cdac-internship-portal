@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Internship Portal</title>
+</head>
+<body>
+    <h1>Available Internships</h1>
+
+    {% if internships %}
+        <ul>
+            {% for i in internships %}
+                <li>
+                    <strong>{{ i.title }}</strong> - {{ i.domain }}<br>
+                    {{ i.description }}
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No internships found. Use Postman to add some.</p>
+    {% endif %}
+</body>
+</html>
