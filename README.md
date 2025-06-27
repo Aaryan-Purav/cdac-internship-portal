@@ -35,9 +35,12 @@ Project/
 
 ```bash
 pip install -r requirements.txt
+```
 
 Run the app:
+```
 python run.py
+```
 
 Then open in your browser:
 
@@ -84,3 +87,4 @@ Add image uploads or resume attachment field
 git add README.md
 git commit -m "Cleaned and finalized README.md"
 git push
+```
